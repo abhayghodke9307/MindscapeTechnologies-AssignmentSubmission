@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="  background-image:  url('/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg');
+background-size: cover;
+background-position: center;">
+
+  <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm" >
+
+     <div class="radio" style="display: flex; justify-content: center;">
+        <div class="col-sm-4">
+            <div class="radio-buttons">
+                <label>
+                  <input type="radio" name="loginType" value="user"> User
+                </label>
+            
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio" name="loginType" value="admin"> Admin
+                  </label>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="radio-buttons">
+                
+            
+                <label>
+                  <input type="radio" name="loginType" value="client"> Client
+                </label>
+              </div>
+          </div>
+     </div>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p>
+        if you do not have account please register <span><a href="signup.html">Signup Here</a></span>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
